@@ -46,7 +46,7 @@ main {
 
 .product-card button {
     padding: 10px;
-    background-color: #28a745;
+    background-color: #8ea728;
     color: white;
     border: none;
     cursor: pointer;
@@ -54,7 +54,17 @@ main {
 }
 
 /* Desktop Breakpoint: 4 columns [cite: 25, 26] */
-@media (min-width: 768px) {
+@media (min-width: 600px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}media (min-width: 768px) {
     .product-grid {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -70,7 +80,7 @@ main {
 }
 
 .cart-item button {
-    background-color: #dc3545;
+    background-color: #169de6;
     color: white;
     border: none;
     padding: 5px 10px;
