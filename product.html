@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store - Product Detail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>Tech Store</h2>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+        </div>
+    </nav>
+    <main>
+        <h1>Wireless Mouse</h1>
+        <div style="margin-top: 20px;">
+            <p><strong>Price:</strong> $25</p>
+            <p><strong>Description:</strong> An ergonomic, lag-free wireless mouse perfect for office work and gaming. Features a 10m range and 6-month battery life.</p>
+            <br>
+            <button style="padding: 10px; background: #28a745; color: white; border: none; cursor: pointer;" 
+                    onclick="addToCart(1, 'Wireless Mouse', 25)">
+                Add to Cart
+            </button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
